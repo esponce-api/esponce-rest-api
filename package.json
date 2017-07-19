@@ -1,0 +1,22 @@
+{
+  "name": "esponce-api",
+  "description": "Generate and style QR Codes using Esponce REST API",
+  "version": "0.4.0",
+  "author": "Esponce",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test",
+    "minify": "npm install minify && node minify.js"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esponce-api/esponce-rest-api"
+  },
+  "bugs": {
+    "url": "https://github.com/esponce-api/esponce-rest-api/issues"
+  }
+}
